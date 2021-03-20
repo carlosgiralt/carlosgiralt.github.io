@@ -891,6 +891,10 @@ html[dir="rtl"] body {
 }
 
 /* stylelint-disable selector-list-comma-newline-after */
+body, footer {
+  font-family: "Ubuntu", Georgia, "Times New Roman", serif;
+}
+
 
 .blog-header {
   line-height: 1;
@@ -898,7 +902,7 @@ html[dir="rtl"] body {
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: "Ubuntu", Georgia, "Times New Roman", serif;
   font-size: 2.25rem;
 }
 
@@ -906,8 +910,8 @@ html[dir="rtl"] body {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "Ubuntu", Georgia, "Times New Roman", serif;
 }
 
 .display-4 {
@@ -1010,7 +1014,7 @@ article:last-child {
 }
 .entry-title {
   margin-bottom: .25rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 article .metadata {
   margin-bottom: 1.25rem;
